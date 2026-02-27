@@ -1,4 +1,4 @@
-Nama: Dinda Aulia Rizky
+<img width="937" height="217" alt="image" src="https://github.com/user-attachments/assets/e3c2e870-e82b-495e-a812-4b6576b06678" />Nama: Dinda Aulia Rizky
 
 NIM: 2409116076
 
@@ -50,11 +50,11 @@ Web portofolio ini dibuat agar kita bisa memperkenalkan diri secara profesional,
    
      <img width="1799" height="984" alt="image" src="https://github.com/user-attachments/assets/3acfd130-a845-44f7-9a06-55e25073cfcf" />
 
-   - Halaman Certificates pada Campus
+   - Halaman Certificates pada Campus:
 
      <img width="1786" height="1038" alt="image" src="https://github.com/user-attachments/assets/e385ba20-4302-4ca5-a9c8-55b0c25ba08b" />
 
-- Halaman Certificates pada School
+- Halaman Certificates pada School:
 
   <img width="1781" height="683" alt="image" src="https://github.com/user-attachments/assets/94c7203a-5ba3-4046-8a1b-d10b6558bf12" />
 
@@ -63,5 +63,77 @@ Web portofolio ini dibuat agar kita bisa memperkenalkan diri secara profesional,
    Bagian Contact berisi informasi kontak seperti email dan media sosial yang dapat digunakan untuk menghubungi pemilik website. Bagian ini memudahkan pihak lain untuk menjalin komunikasi lebih lanjut.
 
    <img width="945" height="470" alt="image" src="https://github.com/user-attachments/assets/7c84fb63-032b-4613-b53e-ab088d942558" />
+
+# Struktur Kode pada Setiap Section
+```bash
+WEB_PORTOFOLIO
+├── assets => Folder untuk menyimpan file pendukung yakni gambar.
+├── index.html => File utama yang berisi struktur halaman website.
+└── style.css => File untuk mengatur tampilan dan desain website.
+```
+
+File index.html merupakan struktur utama dari website portfolio yang berfungsi sebagai kerangka dasar dalam menampilkan seluruh konten. Pada file ini terdapat pembagian beberapa section yang mewakili fitur utama website, seperti halaman beranda, profil diri, pengalaman, sertifikat, hingga kontak.
+
+1. Struktur Dasar HTML
+
+   Bagian ini merupakan struktur dasar HTML.
+   - <!DOCTYPE html> berfungsi untuk mendeklarasikan tipe dokumen HTML5.
+   - meta viewport digunakan agar website responsif di berbagai ukuran layar.
+   - Bootstrap CSS digunakan untuk mempermudah pembuatan layout dan komponen, sedangkan style.css berisi desain kustom.
+   
+   <img width="1054" height="312" alt="image" src="https://github.com/user-attachments/assets/72da37de-0b0b-4292-98d9-a28e11c0e89c" />
+
+2. Navbar
+
+   Navbar berfungsi sebagai menu navigasi untuk berpindah antar section.
+   - Class navbar-expand-lg membuat navbar responsif.
+   - fixed-top membuat navbar tetap berada di atas saat halaman di-scroll.
+   - Link seperti href="#about" mengarahkan ke section tertentu dalam halaman.
+   
+   <img width="1022" height="439" alt="image" src="https://github.com/user-attachments/assets/8d2031af-1596-46f9-9b8b-119265dd4443" />
+
+3. Home Section
+
+   Bagian ini merupakan tampilan awal website (hero section). {{ name }} dan {{ tagline }} menggunakan Vue JS untuk menampilkan data secara dinamis dari bagian data().
+
+   <img width="937" height="217" alt="image" src="https://github.com/user-attachments/assets/85f1fe3f-fcd5-414b-8888-4c901dd583ee" />
+
+4. About Me Section
+
+   Struktur Utama: Foto, deskripsi, skills.
+
+   Section ini menjelaskan profil diri.
+   - v-for digunakan untuk menampilkan daftar skill secara otomatis berdasarkan data array.
+   - :style (v-bind) digunakan untuk mengatur lebar progress bar sesuai persentase skill.
+
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
