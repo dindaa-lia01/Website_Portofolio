@@ -1,4 +1,4 @@
-Nama: Dinda Aulia Rizky
+<img width="636" height="772" alt="image" src="https://github.com/user-attachments/assets/23494db2-2cb0-4170-93d8-be11a81cb99f" />Nama: Dinda Aulia Rizky
 
 NIM: 2409116076
 
@@ -102,9 +102,62 @@ File index.html merupakan struktur utama dari website portfolio yang berfungsi s
 
    Struktur Utama: Foto, deskripsi, skills.
 
-   Section ini menjelaskan profil diri.
-   - v-for digunakan untuk menampilkan daftar skill secara otomatis berdasarkan data array.
-   - :style (v-bind) digunakan untuk mengatur lebar progress bar sesuai persentase skill.
+   Pada foto pertama ditampilkan struktur dasar section About Me. Bagian ini menggunakan id="about" agar bisa dipanggil melalui navigasi, serta class Bootstrap seperti py-5, container, dan row untuk mengatur jarak dan tata letak agar responsif. Di dalamnya terdapat judul “About Me” yang dibuat rata tengah, serta kolom yang berisi foto profil.
+
+   Gambar diambil dari folder assets dan menggunakan class img-fluid agar tampilannya menyesuaikan ukuran layar.
+
+   <img width="626" height="372" alt="Screenshot 2026-02-28 050936" src="https://github.com/user-attachments/assets/f67012cf-5849-4c23-9e04-1bb6db341919" />
+
+    Daftar pengalaman dibuat dengan perulangan v-for dari array experiences. Bagian skills juga menggunakan v-for untuk menampilkan nama skill dan tingkat kemampuannya. Progress bar diatur secara dinamis melalui :style sehingga panjang bar sesuai dengan persentase kemampuan masing-masing skill.
+
+   Pada foto kedua ditampilkan bagian deskripsi, pengalaman, dan skills. Deskripsi menggunakan sintaks {{ description }} yang menunjukkan penggunaan Vue.js untuk menampilkan data secara dinamis.
+   
+   <img width="518" height="618" alt="Screenshot 2026-02-28 051037" src="https://github.com/user-attachments/assets/8e9f4dbf-a77f-4107-8332-973f73037d50" />
+
+6. Experience Section
+
+   Bagian ini menampilkan pengalaman organisasi atau kegiatan. Filter menggunakan @click untuk mengubah kategori. Data yang ditampilkan dikontrol oleh computed property filteredExperience() yang menyaring data berdasarkan kategori.
+
+   <img width="636" height="772" alt="image" src="https://github.com/user-attachments/assets/0fbdcd94-9797-4ab6-a684-9977b83ae7ca" />
+
+7. Certificates Section
+
+   Section ini menampilkan daftar sertifikat. Struktur mirip dengan Experience, tetapi menggunakan data certificates. Filtering dilakukan melalui filteredCertificates().
+
+   <img width="627" height="762" alt="image" src="https://github.com/user-attachments/assets/3384b5b8-52f4-4636-8212-bf66cc040cfa" />
+
+8. Contact Section
+
+   Bagian ini berisi informasi kontak.
+   - mailto: digunakan untuk membuka email secara langsung.
+   - target="_blank" membuat link Instagram terbuka di tab baru.
+
+   <img width="834" height="481" alt="image" src="https://github.com/user-attachments/assets/c67e8b58-9e16-4910-bf3d-c0d65ed6a243" />
+
+9. Vue JS (Data dan Logika)
+    
+    data() {
+  return {
+    name: "...",
+    skills: [...],
+    experienceList: [...],
+    certificates: [...]
+  }
+}
+
+   Bagian data() menyimpan seluruh informasi yang digunakan dalam website, seperti nama, pengalaman, sertifikat, dan skill. Vue membuat data ini bisa ditampilkan secara dinamis di HTML.
+
+10. Computed (Filter Logic)
+
+    computed digunakan untuk memproses data sebelum ditampilkan. Fungsi ini menyaring data berdasarkan kategori yang dipilih.
+
+    <img width="765" height="258" alt="image" src="https://github.com/user-attachments/assets/b5a3d25a-ac65-4665-84d7-fa0cc26662af" />
+
+12. Animasi Scroll
+
+    Script ini berfungsi untuk memberikan efek animasi saat halaman di-scroll. Ketika elemen masuk ke area layar, class show ditambahkan sehingga animasi muncul.
+
+    <img width="644" height="386" alt="image" src="https://github.com/user-attachments/assets/4646b38b-6180-4c8b-9963-a5ed30ff340e" />
 
    
 
