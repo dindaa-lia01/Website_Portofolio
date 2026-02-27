@@ -1,4 +1,4 @@
-<img width="636" height="772" alt="image" src="https://github.com/user-attachments/assets/23494db2-2cb0-4170-93d8-be11a81cb99f" />Nama: Dinda Aulia Rizky
+<img width="678" height="137" alt="Screenshot 2026-02-28 054116" src="https://github.com/user-attachments/assets/3544a323-ff09-4244-b6fb-ebc41699c4ad" />Nama: Dinda Aulia Rizky
 
 NIM: 2409116076
 
@@ -72,7 +72,7 @@ WEB_PORTOFOLIO
 └── style.css => File untuk mengatur tampilan dan desain website.
 ```
 
-File index.html merupakan struktur utama dari website portfolio yang berfungsi sebagai kerangka dasar dalam menampilkan seluruh konten. Pada file ini terdapat pembagian beberapa section yang mewakili fitur utama website, seperti halaman beranda, profil diri, pengalaman, sertifikat, hingga kontak.
+### **File index.html** merupakan struktur utama dari website portfolio yang berfungsi sebagai kerangka dasar dalam menampilkan seluruh konten. Pada file ini terdapat pembagian beberapa section yang mewakili fitur utama website, seperti halaman beranda, profil diri, pengalaman, sertifikat, hingga kontak.
 
 1. Struktur Dasar HTML
 
@@ -108,9 +108,9 @@ File index.html merupakan struktur utama dari website portfolio yang berfungsi s
 
    <img width="626" height="372" alt="Screenshot 2026-02-28 050936" src="https://github.com/user-attachments/assets/f67012cf-5849-4c23-9e04-1bb6db341919" />
 
-    Daftar pengalaman dibuat dengan perulangan v-for dari array experiences. Bagian skills juga menggunakan v-for untuk menampilkan nama skill dan tingkat kemampuannya. Progress bar diatur secara dinamis melalui :style sehingga panjang bar sesuai dengan persentase kemampuan masing-masing skill.
-
    Pada foto kedua ditampilkan bagian deskripsi, pengalaman, dan skills. Deskripsi menggunakan sintaks {{ description }} yang menunjukkan penggunaan Vue.js untuk menampilkan data secara dinamis.
+   
+  Bagian skills menggunakan v-for untuk menampilkan nama skill dan tingkat kemampuannya. Progress bar diatur secara dinamis melalui :style sehingga panjang bar sesuai dengan persentase kemampuan masing-masing skill.
    
    <img width="518" height="618" alt="Screenshot 2026-02-28 051037" src="https://github.com/user-attachments/assets/8e9f4dbf-a77f-4107-8332-973f73037d50" />
 
@@ -135,19 +135,12 @@ File index.html merupakan struktur utama dari website portfolio yang berfungsi s
    <img width="834" height="481" alt="image" src="https://github.com/user-attachments/assets/c67e8b58-9e16-4910-bf3d-c0d65ed6a243" />
 
 9. Vue JS (Data dan Logika)
-    
-    data() {
-  return {
-    name: "...",
-    skills: [...],
-    experienceList: [...],
-    certificates: [...]
-  }
-}
 
    Bagian data() menyimpan seluruh informasi yang digunakan dalam website, seperti nama, pengalaman, sertifikat, dan skill. Vue membuat data ini bisa ditampilkan secara dinamis di HTML.
 
-10. Computed (Filter Logic)
+   <img width="213" height="191" alt="image" src="https://github.com/user-attachments/assets/dc06bae7-8baf-4ec6-a469-fb799100e736" />
+
+11. Computed (Filter Logic)
 
     computed digunakan untuk memproses data sebelum ditampilkan. Fungsi ini menyaring data berdasarkan kategori yang dipilih.
 
@@ -158,6 +151,30 @@ File index.html merupakan struktur utama dari website portfolio yang berfungsi s
     Script ini berfungsi untuk memberikan efek animasi saat halaman di-scroll. Ketika elemen masuk ke area layar, class show ditambahkan sehingga animasi muncul.
 
     <img width="644" height="386" alt="image" src="https://github.com/user-attachments/assets/4646b38b-6180-4c8b-9963-a5ed30ff340e" />
+
+13. Footer
+
+    Pada bagian pertama terdapat elemen <footer> yang berfungsi sebagai penutup halaman website. Footer menggunakan class Bootstrap seperti bg-dark, text-white, text-center, dan py-3 untuk memberikan latar belakang gelap, warna teks putih, posisi teks di tengah, serta padding vertikal. Di dalamnya terdapat tag <p> yang menampilkan copyright dan nama pemilik website.
+
+    <img width="665" height="155" alt="image" src="https://github.com/user-attachments/assets/1e02b424-7f7f-4c51-9ec0-b2c69796005e" />
+
+
+14. Bootstrap JS
+
+    Selanjutnya terdapat pemanggilan Bootstrap JS melalui CDN. File ini berfungsi untuk mengaktifkan komponen interaktif Bootstrap seperti navbar toggle, dropdown, dan modal. Setelah itu terdapat pemanggilan Vue JS melalui CDN yang digunakan untuk mengelola data secara dinamis menggunakan reactive system dan data binding.
+
+    <img width="994" height="73" alt="image" src="https://github.com/user-attachments/assets/e628ccaf-445c-4696-b41b-4a06a3f17dbc" />
+
+15. Vue JS
+
+    <img width="678" height="137" alt="Screenshot 2026-02-28 054116" src="https://github.com/user-attachments/assets/15a59287-7e4d-4ff6-a91f-f23d8f76f937" />
+
+    Berfungsi untuk menghubungkan website dengan library Vue.js versi 3 melalui CDN. Pada bagian <script> dengan const { createApp } = Vue, kode ini digunakan untuk menginisialisasi aplikasi Vue agar data seperti description, experiences, dan skills dapat ditampilkan secara dinamis pada halaman.
+
+
+### **File style.css** digunakan untuk mengatur tampilan dan desain website. CSS berfungsi memperindah halaman dengan mengatur warna, font, layout, animasi, serta efek seperti hover dan transisi. Pada project ini, style.css mengatur background animasi, tampilan navbar, hero section, gambar profil, progress bar, card, tombol, serta efek scroll agar website terlihat lebih modern dan menarik.
+
+
 
    
 
