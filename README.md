@@ -1,4 +1,4 @@
-<img width="937" height="217" alt="image" src="https://github.com/user-attachments/assets/e3c2e870-e82b-495e-a812-4b6576b06678" />Nama: Dinda Aulia Rizky
+Nama: Dinda Aulia Rizky
 
 NIM: 2409116076
 
