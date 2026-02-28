@@ -260,6 +260,28 @@ WEB_PORTOFOLIO
 
    <img width="605" height="568" alt="image" src="https://github.com/user-attachments/assets/ccdab388-9df5-4a2d-b81f-c0249a3aa13b" />
 
+# Tools yang Digunakan dalam Pengembangan Website
+
+## 1. HTML (HyperText Markup Language)
+
+   HTML digunakan untuk membangun struktur dasar halaman website seperti navbar, section, card, dan footer. HTML berfungsi sebagai kerangka utama website yang menyusun konten seperti teks, gambar, tombol, dan pembagian section.
+
+## 2. CSS (Cascading Style Sheets)
+
+   CSS digunakan untuk mengatur tampilan visual website seperti warna, font, animasi, dan layout tambahan. CSS berfungsi memperindah tampilan website agar terlihat modern, responsif, dan memiliki efek animasi seperti hover dan scroll animation.
+
+## 3. Bootstrap 5
+
+   Bootstrap 5 digunakan untuk mempermudah pembuatan layout yang responsif dan komponen siap pakai seperti navbar, grid system, card, dan button.Bootstrap membantu dalam mengatur tata letak (grid system), membuat website responsif di berbagai ukuran layar, serta menyediakan komponen desain yang konsisten.
+
+## 4. Vue.js (JavaScript Framework)
+
+   Vue.js digunakan untuk membuat website menjadi dinamis, seperti menampilkan data, melakukan perulangan, serta fitur filter kategori. Vue.js berfungsi untuk mengelola data secara dinamis. Dengan Vue, konten seperti pengalaman, sertifikat, dan skills dapat ditampilkan secara otomatis berdasarkan data yang tersimpan dalam array.
+
+
+
+
+
 
 
 
