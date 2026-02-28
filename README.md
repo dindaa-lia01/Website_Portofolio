@@ -201,7 +201,7 @@ WEB_PORTOFOLIO
 
 5. Section Title
 
-   Mengatur tampilan semua tag '<h2>' agar memiliki warna dan efek glow yang konsisten. Fungsinya untuk menjaga keseragaman desain antar section.
+   Mengatur tampilan semua tag h2 agar memiliki warna dan efek glow yang konsisten. Fungsinya untuk menjaga keseragaman desain antar section.
 
    <img width="384" height="192" alt="image" src="https://github.com/user-attachments/assets/b91088c6-e80c-4d53-abc2-af97adcc2ca9" />
 
