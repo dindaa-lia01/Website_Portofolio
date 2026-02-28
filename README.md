@@ -1,4 +1,4 @@
-<img width="678" height="137" alt="Screenshot 2026-02-28 054116" src="https://github.com/user-attachments/assets/3544a323-ff09-4244-b6fb-ebc41699c4ad" />Nama: Dinda Aulia Rizky
+Nama: Dinda Aulia Rizky
 
 NIM: 2409116076
 
@@ -72,7 +72,8 @@ WEB_PORTOFOLIO
 └── style.css => File untuk mengatur tampilan dan desain website.
 ```
 
-### **File index.html** merupakan struktur utama dari website portfolio yang berfungsi sebagai kerangka dasar dalam menampilkan seluruh konten. Pada file ini terdapat pembagian beberapa section yang mewakili fitur utama website, seperti halaman beranda, profil diri, pengalaman, sertifikat, hingga kontak.
+### **File index.html** 
+=> merupakan struktur utama dari website portfolio yang berfungsi sebagai kerangka dasar dalam menampilkan seluruh konten. Pada file ini terdapat pembagian beberapa section yang mewakili fitur utama website, seperti halaman beranda, profil diri, pengalaman, sertifikat, hingga kontak.
 
 1. Struktur Dasar HTML
 
@@ -108,9 +109,9 @@ WEB_PORTOFOLIO
 
    <img width="626" height="372" alt="Screenshot 2026-02-28 050936" src="https://github.com/user-attachments/assets/f67012cf-5849-4c23-9e04-1bb6db341919" />
 
-   Pada foto kedua ditampilkan bagian deskripsi, pengalaman, dan skills. Deskripsi menggunakan sintaks {{ description }} yang menunjukkan penggunaan Vue.js untuk menampilkan data secara dinamis.
+   Pada foto dibawah ini ditampilkan bagian deskripsi, pengalaman, dan skills. Deskripsi menggunakan sintaks {{ description }} yang menunjukkan penggunaan Vue.js untuk menampilkan data secara dinamis.
    
-  Bagian skills menggunakan v-for untuk menampilkan nama skill dan tingkat kemampuannya. Progress bar diatur secara dinamis melalui :style sehingga panjang bar sesuai dengan persentase kemampuan masing-masing skill.
+   Bagian skills menggunakan v-for untuk menampilkan nama skill dan tingkat kemampuannya. Progress bar diatur secara dinamis melalui :style sehingga panjang bar sesuai dengan persentase kemampuan masing-masing skill.
    
    <img width="518" height="618" alt="Screenshot 2026-02-28 051037" src="https://github.com/user-attachments/assets/8e9f4dbf-a77f-4107-8332-973f73037d50" />
 
@@ -154,31 +155,111 @@ WEB_PORTOFOLIO
 
 13. Footer
 
-    Pada bagian pertama terdapat elemen <footer> yang berfungsi sebagai penutup halaman website. Footer menggunakan class Bootstrap seperti bg-dark, text-white, text-center, dan py-3 untuk memberikan latar belakang gelap, warna teks putih, posisi teks di tengah, serta padding vertikal. Di dalamnya terdapat tag <p> yang menampilkan copyright dan nama pemilik website.
-
+    Pada bagian pertama terdapat elemen _footer_ yang berfungsi sebagai penutup halaman website. Footer menggunakan class Bootstrap seperti bg-dark, text-center, dan py-3 untuk memberikan latar belakang gelap, warna teks putih, posisi teks di tengah, serta padding vertikal. Di dalamnya terdapat tag _p_ yang menampilkan copyright dan nama pemilik website.
+   
     <img width="665" height="155" alt="image" src="https://github.com/user-attachments/assets/1e02b424-7f7f-4c51-9ec0-b2c69796005e" />
 
+15. Bootstrap JS
 
-14. Bootstrap JS
-
-    Selanjutnya terdapat pemanggilan Bootstrap JS melalui CDN. File ini berfungsi untuk mengaktifkan komponen interaktif Bootstrap seperti navbar toggle, dropdown, dan modal. Setelah itu terdapat pemanggilan Vue JS melalui CDN yang digunakan untuk mengelola data secara dinamis menggunakan reactive system dan data binding.
+    Terdapat pemanggilan Bootstrap JS melalui CDN. File ini berfungsi untuk mengaktifkan komponen interaktif Bootstrap seperti navbar toggle, dropdown, dan modal. Setelah itu terdapat pemanggilan Vue JS melalui CDN yang digunakan untuk mengelola data secara dinamis menggunakan reactive system dan data binding.
 
     <img width="994" height="73" alt="image" src="https://github.com/user-attachments/assets/e628ccaf-445c-4696-b41b-4a06a3f17dbc" />
 
-15. Vue JS
-
-    <img width="678" height="137" alt="Screenshot 2026-02-28 054116" src="https://github.com/user-attachments/assets/15a59287-7e4d-4ff6-a91f-f23d8f76f937" />
+16. Vue JS
 
     Berfungsi untuk menghubungkan website dengan library Vue.js versi 3 melalui CDN. Pada bagian <script> dengan const { createApp } = Vue, kode ini digunakan untuk menginisialisasi aplikasi Vue agar data seperti description, experiences, dan skills dapat ditampilkan secara dinamis pada halaman.
+    
+    <img width="678" height="137" alt="Screenshot 2026-02-28 054116" src="https://github.com/user-attachments/assets/15a59287-7e4d-4ff6-a91f-f23d8f76f937" />
 
 
-### **File style.css** digunakan untuk mengatur tampilan dan desain website. CSS berfungsi memperindah halaman dengan mengatur warna, font, layout, animasi, serta efek seperti hover dan transisi. Pada project ini, style.css mengatur background animasi, tampilan navbar, hero section, gambar profil, progress bar, card, tombol, serta efek scroll agar website terlihat lebih modern dan menarik.
+### **File style.css** 
+=> Digunakan untuk mengatur tampilan dan desain website. CSS berfungsi memperindah halaman dengan mengatur warna, font, layout, animasi, serta efek seperti hover dan transisi. Pada project ini, style.css mengatur background animasi, tampilan navbar, hero section, gambar profil, progress bar, card, tombol, serta efek scroll agar website terlihat lebih modern dan menarik.
 
+1. Google Font
 
+   Bagian ini mengimpor font Poppins dari Google Fonts. Font ini digunakan sebagai font utama agar tampilan website terlihat modern dan konsisten.
 
-   
+   <img width="955" height="114" alt="image" src="https://github.com/user-attachments/assets/c7afa1af-fd86-4259-b035-2ae0f03c0719" />
 
-   
+2. Global Style
+
+   Bagian global mengatur tampilan dasar seluruh halaman. Background menggunakan animasi gradasi warna dengan @keyframes gradientMove, sehingga latar belakang terlihat bergerak secara halus. Selain itu, diatur juga warna teks utama menjadi putih, scroll menjadi smooth, dan mencegah overflow horizontal. Fungsinya adalah memberikan identitas visual utama pada website.
+
+   <img width="811" height="308" alt="image" src="https://github.com/user-attachments/assets/a9b6f6b8-f200-4b5b-a237-0efcb18f09f8" />
+
+3. Navbar
+
+   Bagian navbar mengatur tampilan menu navigasi. Background dibuat transparan dengan efek blur (glassmorphism). Warna teks diberi efek neon biru dan memiliki efek hover. Fungsinya untuk memperjelas navigasi dan memberikan kesan modern.
+
+   <img width="472" height="561" alt="image" src="https://github.com/user-attachments/assets/739c1be0-3f2e-4fcb-a196-88dfe1590d9b" />
+
+4. Hero Section
+
+   Hero section mengatur tampilan halaman pertama yang memenuhi tinggi layar (100vh). Konten dibuat berada di tengah secara vertikal dan horizontal. Fungsinya untuk memberikan kesan pertama yang menarik saat website dibuka.
+
+   <img width="393" height="504" alt="image" src="https://github.com/user-attachments/assets/a547d83b-e50a-40b0-bcba-9818be4c032a" />
+
+5. Section Title
+
+   Mengatur tampilan semua tag <h2> agar memiliki warna dan efek glow yang konsisten. Fungsinya untuk menjaga keseragaman desain antar section.
+
+   <img width="384" height="192" alt="image" src="https://github.com/user-attachments/assets/b91088c6-e80c-4d53-abc2-af97adcc2ca9" />
+
+6. Progress Bar (Skills)
+
+   Bagian ini mengatur tampilan progress bar pada section skills. Warna background dibuat gelap, sedangkan bagian progress menggunakan warna biru neon. Fungsinya untuk menampilkan tingkat kemampuan secara visual.
+
+   <img width="398" height="356" alt="image" src="https://github.com/user-attachments/assets/918eacfc-d1d6-4a2f-8e48-31d4f3ba782c" />
+
+7. Card (Experience & Certificate)
+
+   Mengatur tampilan card agar memiliki sudut melengkung, efek bayangan, dan animasi saat hover. Fungsinya untuk membuat tampilan pengalaman dan sertifikat lebih interaktif dan tidak monoton.
+
+   <img width="568" height="348" alt="image" src="https://github.com/user-attachments/assets/25e768e3-f4f5-4b61-ab30-31efc7aa45ca" />
+
+8. Image Experience & Certificate
+
+   Mengatur ukuran dan tampilan gambar agar proporsional serta tidak terdistorsi. Fungsinya agar gambar tetap rapi dan responsif.
+
+   <img width="308" height="237" alt="image" src="https://github.com/user-attachments/assets/b842ad0c-bfed-47be-a1b9-90b1ed42966e" />
+
+   <img width="312" height="234" alt="image" src="https://github.com/user-attachments/assets/9673b2eb-89ba-4cb4-9671-ae978f045d78" />
+
+9. Contact Link
+
+    Mengatur tampilan link pada bagian contact agar tidak memiliki underline dan memiliki warna khusus. Fungsinya untuk memperjelas informasi kontak.
+
+    <img width="289" height="208" alt="image" src="https://github.com/user-attachments/assets/8a60274d-dca3-41f6-af4a-201cdfd8338b" />
+
+10. Button
+
+    Mengatur tampilan tombol utama dengan warna neon biru serta efek hover transparan. Fungsinya untuk meningkatkan interaktivitas pengguna.
+
+    <img width="360" height="423" alt="image" src="https://github.com/user-attachments/assets/6abc4dd7-0d97-4817-a8c5-b46f0d430eab" />
+
+11. Section Background Custom
+
+    Memberikan background khusus pada section experience dan contact dengan efek blur dan border transparan. Fungsinya untuk membedakan section dari background utama.
+
+    <img width="412" height="251" alt="image" src="https://github.com/user-attachments/assets/47dca067-4f44-4689-ae79-59440244508c" />
+
+12. Filter Button Active
+
+   Mengatur tampilan tombol filter yang sedang aktif agar terlihat menonjol. Fungsinya untuk memberikan feedback visual kepada pengguna.
+
+   <img width="353" height="207" alt="image" src="https://github.com/user-attachments/assets/f976ff84-a1de-40ad-ae5d-5d359f4acefe" />
+
+13. Scroll Animation
+
+    Mengatur animasi saat section muncul ketika discroll. Awalnya elemen tidak terlihat, kemudian muncul dengan efek fade dan slide. Fungsinya untuk meningkatkan pengalaman visual pengguna.
+
+    <img width="423" height="373" alt="image" src="https://github.com/user-attachments/assets/5b3c776b-205b-4f8b-8a2b-550fd88a9e8a" />
+
+14. About Image Style
+
+    Mengatur tampilan foto pada section About agar memiliki frame gradasi dan efek zoom. Fungsinya untuk memperindah tampilan bagian profil.
+
+    <img width="605" height="568" alt="image" src="https://github.com/user-attachments/assets/ccdab388-9df5-4a2d-b81f-c0249a3aa13b" />
 
 
 
