@@ -211,13 +211,13 @@ WEB_PORTOFOLIO
 
    <img width="398" height="356" alt="image" src="https://github.com/user-attachments/assets/918eacfc-d1d6-4a2f-8e48-31d4f3ba782c" />
 
-7. Card (Experience & Certificate)
+6. Card (Experience & Certificate)
 
    Mengatur tampilan card agar memiliki sudut melengkung, efek bayangan, dan animasi saat hover. Fungsinya untuk membuat tampilan pengalaman dan sertifikat lebih interaktif dan tidak monoton.
 
    <img width="568" height="348" alt="image" src="https://github.com/user-attachments/assets/25e768e3-f4f5-4b61-ab30-31efc7aa45ca" />
 
-8. Image Experience & Certificate
+7. Image Experience & Certificate
 
    Mengatur ukuran dan tampilan gambar agar proporsional serta tidak terdistorsi. Fungsinya agar gambar tetap rapi dan responsif.
 
@@ -225,37 +225,37 @@ WEB_PORTOFOLIO
 
    <img width="312" height="234" alt="image" src="https://github.com/user-attachments/assets/9673b2eb-89ba-4cb4-9671-ae978f045d78" />
 
-9. Contact Link
+8. Contact Link
 
     Mengatur tampilan link pada bagian contact agar tidak memiliki underline dan memiliki warna khusus. Fungsinya untuk memperjelas informasi kontak.
 
     <img width="289" height="208" alt="image" src="https://github.com/user-attachments/assets/8a60274d-dca3-41f6-af4a-201cdfd8338b" />
 
-10. Button
+9. Button
 
     Mengatur tampilan tombol utama dengan warna neon biru serta efek hover transparan. Fungsinya untuk meningkatkan interaktivitas pengguna.
 
     <img width="360" height="423" alt="image" src="https://github.com/user-attachments/assets/6abc4dd7-0d97-4817-a8c5-b46f0d430eab" />
 
-11. Section Background Custom
+10. Section Background Custom
 
     Memberikan background khusus pada section experience dan contact dengan efek blur dan border transparan. Fungsinya untuk membedakan section dari background utama.
 
     <img width="412" height="251" alt="image" src="https://github.com/user-attachments/assets/47dca067-4f44-4689-ae79-59440244508c" />
 
-12. Filter Button Active
+11. Filter Button Active
 
    Mengatur tampilan tombol filter yang sedang aktif agar terlihat menonjol. Fungsinya untuk memberikan feedback visual kepada pengguna.
 
    <img width="353" height="207" alt="image" src="https://github.com/user-attachments/assets/f976ff84-a1de-40ad-ae5d-5d359f4acefe" />
 
-13. Scroll Animation
+12. Scroll Animation
 
     Mengatur animasi saat section muncul ketika discroll. Awalnya elemen tidak terlihat, kemudian muncul dengan efek fade dan slide. Fungsinya untuk meningkatkan pengalaman visual pengguna.
 
     <img width="423" height="373" alt="image" src="https://github.com/user-attachments/assets/5b3c776b-205b-4f8b-8a2b-550fd88a9e8a" />
 
-14. About Image Style
+13. About Image Style
 
     Mengatur tampilan foto pada section About agar memiliki frame gradasi dan efek zoom. Fungsinya untuk memperindah tampilan bagian profil.
 
