@@ -4,13 +4,13 @@ NIM: 2409116076
 
 Kelas: B'24
 
-# Website Portofolio
+# Website Portofolio  𓂃˖˳·˖ ִֶָ ⋆ 🪼 ⋆ ִֶָ˖·˳˖𓂃 ִֶָ
 
 Web portofolio adalah situs web pribadi yang menampilkan informasi mengenai diri seseorang, seperti pengantar, pengalaman kerja, kemampuan, dan sertifikat yang pernah diperoleh. Web portofolio bisa dianggap seperti CV, hanya saja disajikan dalam bentuk website yang lebih menarik dan bisa berinteraksi. Di dalamnya, orang bisa melihat siapa kita, apa yang sudah kita kerjakan, dan kemampuan apa yang kita punya dengan tampilan yang lebih jelas dan lebih menarik. 
 
 Web portofolio ini dibuat agar kita bisa memperkenalkan diri secara profesional, terutama saat sedang kuliah, mencari magang, atau melamar pekerjaan. Dengan membuat website portofolio, kita bisa menampilkan kemampuan dan pengalaman kita dengan cara yang lebih menarik dan terkini. Selain itu, web portofolio juga bisa digunakan untuk memperkuat citra diri agar terlihat lebih profesional dan siap dalam membangun karier.
 
-# Tampilan Tiap Section
+# 𐙚 Tampilan Tiap Section
 
 ## 1. Home
 
@@ -64,7 +64,7 @@ Web portofolio ini dibuat agar kita bisa memperkenalkan diri secara profesional,
 
    <img width="945" height="470" alt="image" src="https://github.com/user-attachments/assets/7c84fb63-032b-4613-b53e-ab088d942558" />
 
-# Struktur Kode pada Setiap Section
+# 𐙚 Struktur Kode pada Setiap Section
 ```bash
 WEB_PORTOFOLIO
 ├── assets => Folder untuk menyimpan file pendukung yakni gambar.
@@ -72,7 +72,7 @@ WEB_PORTOFOLIO
 └── style.css => File untuk mengatur tampilan dan desain website.
 ```
 
-## **File index.html** 
+## .☘︎ ݁˖ **File index.html** 
 => merupakan struktur utama dari website portfolio yang berfungsi sebagai kerangka dasar dalam menampilkan seluruh konten. Pada file ini terdapat pembagian beberapa section yang mewakili fitur utama website, seperti halaman beranda, profil diri, pengalaman, sertifikat, hingga kontak.
 
 ### 1. Struktur Dasar HTML
@@ -171,7 +171,7 @@ WEB_PORTOFOLIO
     
    <img width="678" height="137" alt="Screenshot 2026-02-28 054116" src="https://github.com/user-attachments/assets/15a59287-7e4d-4ff6-a91f-f23d8f76f937" />
 
-## **File style.css** 
+## .☘︎ ݁˖ **File style.css** 
 => Digunakan untuk mengatur tampilan dan desain website. CSS berfungsi memperindah halaman dengan mengatur warna, font, layout, animasi, serta efek seperti hover dan transisi. Pada project ini, style.css mengatur background animasi, tampilan navbar, hero section, gambar profil, progress bar, card, tombol, serta efek scroll agar website terlihat lebih modern dan menarik.
 
 ### 1. Google Font
@@ -260,7 +260,7 @@ WEB_PORTOFOLIO
 
    <img width="605" height="568" alt="image" src="https://github.com/user-attachments/assets/ccdab388-9df5-4a2d-b81f-c0249a3aa13b" />
 
-# Tools yang Digunakan dalam Pengembangan Website
+# 𐙚 Tools yang Digunakan dalam Pengembangan Website
 
 ## 1. HTML (HyperText Markup Language)
 
