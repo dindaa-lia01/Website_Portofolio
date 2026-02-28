@@ -280,11 +280,11 @@ WEB_PORTOFOLIO
 
    Bootstrap 5 digunakan untuk mempermudah pembuatan layout yang responsif dan komponen siap pakai seperti navbar, grid system, card, dan button.Bootstrap membantu dalam mengatur tata letak (grid system), membuat website responsif di berbagai ukuran layar, serta menyediakan komponen desain yang konsisten.
 
-   Contoh Pemanggilan Bootstrap:
+   - Contoh Pemanggilan Bootstrap:
 
    <img width="1001" height="64" alt="image" src="https://github.com/user-attachments/assets/4480bd26-f941-45ac-9c7d-5f0190f4dbd2" />
 
-   Contoh Penggunaan Class Bootstrap:
+   - Contoh Penggunaan Class Bootstrap:
 
    <img width="272" height="49" alt="image" src="https://github.com/user-attachments/assets/323abb9b-0596-48d8-9eed-2bc4164d9e94" />
 
@@ -294,15 +294,15 @@ WEB_PORTOFOLIO
 
    Vue.js digunakan untuk membuat website menjadi dinamis, seperti menampilkan data, melakukan perulangan, serta fitur filter kategori. Vue.js berfungsi untuk mengelola data secara dinamis. Dengan Vue, konten seperti pengalaman, sertifikat, dan skills dapat ditampilkan secara otomatis berdasarkan data yang tersimpan dalam array.
 
-   Contoh Pemanggilan Vue:
+   - Contoh Pemanggilan Vue:
 
    <img width="655" height="58" alt="image" src="https://github.com/user-attachments/assets/90533106-4f93-41a4-83e7-c47f37a944aa" />
 
-   Contoh Inisialisasi Vue:
+   - Contoh Inisialisasi Vue:
 
    <img width="463" height="238" alt="image" src="https://github.com/user-attachments/assets/a90f3085-41ad-4341-a815-9c37ab06fa5b" />
 
-   Contoh Data Binding & Perulangan
+   - Contoh Data Binding & Perulangan
 
    <img width="486" height="250" alt="image" src="https://github.com/user-attachments/assets/ad62f79d-c479-4c67-a348-979652a15696" />
 
