@@ -175,7 +175,7 @@ WEB_PORTOFOLIO
 ### **File style.css** 
 => Digunakan untuk mengatur tampilan dan desain website. CSS berfungsi memperindah halaman dengan mengatur warna, font, layout, animasi, serta efek seperti hover dan transisi. Pada project ini, style.css mengatur background animasi, tampilan navbar, hero section, gambar profil, progress bar, card, tombol, serta efek scroll agar website terlihat lebih modern dan menarik.
 
-1. Google Font
+##1. Google Font
 
    Bagian ini mengimpor font Poppins dari Google Fonts. Font ini digunakan sebagai font utama agar tampilan website terlihat modern dan konsisten.
 
