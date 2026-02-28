@@ -143,7 +143,7 @@ WEB_PORTOFOLIO
 
 11. Computed (Filter Logic)
 
-    computed digunakan untuk memproses data sebelum ditampilkan. Fungsi ini menyaring data berdasarkan kategori yang dipilih.
+    Computed digunakan untuk memproses data sebelum ditampilkan. Fungsi ini menyaring data berdasarkan kategori yang dipilih.
 
     <img width="765" height="258" alt="image" src="https://github.com/user-attachments/assets/b5a3d25a-ac65-4665-84d7-fa0cc26662af" />
 
@@ -245,9 +245,9 @@ WEB_PORTOFOLIO
 
 11. Filter Button Active
 
-   Mengatur tampilan tombol filter yang sedang aktif agar terlihat menonjol. Fungsinya untuk memberikan feedback visual kepada pengguna.
+    Mengatur tampilan tombol filter yang sedang aktif agar terlihat menonjol. Fungsinya untuk memberikan feedback visual kepada pengguna.
 
-   <img width="353" height="207" alt="image" src="https://github.com/user-attachments/assets/f976ff84-a1de-40ad-ae5d-5d359f4acefe" />
+    <img width="353" height="207" alt="image" src="https://github.com/user-attachments/assets/f976ff84-a1de-40ad-ae5d-5d359f4acefe" />
 
 12. Scroll Animation
 
