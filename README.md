@@ -141,31 +141,31 @@ WEB_PORTOFOLIO
 
    <img width="213" height="191" alt="image" src="https://github.com/user-attachments/assets/dc06bae7-8baf-4ec6-a469-fb799100e736" />
 
-### 11. Computed (Filter Logic)
+### 10. Computed (Filter Logic)
 
    Computed digunakan untuk memproses data sebelum ditampilkan. Fungsi ini menyaring data berdasarkan kategori yang dipilih.
 
    <img width="765" height="258" alt="image" src="https://github.com/user-attachments/assets/b5a3d25a-ac65-4665-84d7-fa0cc26662af" />
 
-### 12. Animasi Scroll
+### 11. Animasi Scroll
 
    Script ini berfungsi untuk memberikan efek animasi saat halaman di-scroll. Ketika elemen masuk ke area layar, class show ditambahkan sehingga animasi muncul.
 
   <img width="644" height="386" alt="image" src="https://github.com/user-attachments/assets/4646b38b-6180-4c8b-9963-a5ed30ff340e" />
 
-### 13. Footer
+### 12. Footer
 
    Pada bagian pertama terdapat elemen _footer_ yang berfungsi sebagai penutup halaman website. Footer menggunakan class Bootstrap seperti bg-dark, text-center, dan py-3 untuk memberikan latar belakang gelap, warna teks putih, posisi teks di tengah, serta padding vertikal. Di dalamnya terdapat tag _p_ yang menampilkan copyright dan nama pemilik website.
    
    <img width="665" height="155" alt="image" src="https://github.com/user-attachments/assets/1e02b424-7f7f-4c51-9ec0-b2c69796005e" />
 
-### 15. Bootstrap JS
+### 13. Bootstrap JS
 
    Terdapat pemanggilan Bootstrap JS melalui CDN. File ini berfungsi untuk mengaktifkan komponen interaktif Bootstrap seperti navbar toggle, dropdown, dan modal. Setelah itu terdapat pemanggilan Vue JS melalui CDN yang digunakan untuk mengelola data secara dinamis menggunakan reactive system dan data binding.
 
    <img width="994" height="73" alt="image" src="https://github.com/user-attachments/assets/e628ccaf-445c-4696-b41b-4a06a3f17dbc" />
 
-### 16. Vue JS
+### 14. Vue JS
 
    Berfungsi untuk menghubungkan website dengan library Vue.js versi 3 melalui CDN. Pada bagian <script> dengan const { createApp } = Vue, kode ini digunakan untuk menginisialisasi aplikasi Vue agar data seperti description, experiences, dan skills dapat ditampilkan secara dinamis pada halaman.
     
