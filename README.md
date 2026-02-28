@@ -282,13 +282,13 @@ WEB_PORTOFOLIO
 
    - Contoh Pemanggilan Bootstrap:
 
-   <img width="1001" height="64" alt="image" src="https://github.com/user-attachments/assets/4480bd26-f941-45ac-9c7d-5f0190f4dbd2" />
+      <img width="1001" height="64" alt="image" src="https://github.com/user-attachments/assets/4480bd26-f941-45ac-9c7d-5f0190f4dbd2" />
 
    - Contoh Penggunaan Class Bootstrap:
 
-   <img width="272" height="49" alt="image" src="https://github.com/user-attachments/assets/323abb9b-0596-48d8-9eed-2bc4164d9e94" />
+      <img width="272" height="49" alt="image" src="https://github.com/user-attachments/assets/323abb9b-0596-48d8-9eed-2bc4164d9e94" />
 
-   <img width="659" height="25" alt="image" src="https://github.com/user-attachments/assets/bfc26f52-34a7-4926-9c07-d657030c058c" />
+      <img width="659" height="25" alt="image" src="https://github.com/user-attachments/assets/bfc26f52-34a7-4926-9c07-d657030c058c" />
 
 ## 4. Vue.js (JavaScript Framework)
 
@@ -296,15 +296,15 @@ WEB_PORTOFOLIO
 
    - Contoh Pemanggilan Vue:
 
-   <img width="655" height="58" alt="image" src="https://github.com/user-attachments/assets/90533106-4f93-41a4-83e7-c47f37a944aa" />
+      <img width="655" height="58" alt="image" src="https://github.com/user-attachments/assets/90533106-4f93-41a4-83e7-c47f37a944aa" />
 
    - Contoh Inisialisasi Vue:
 
-   <img width="463" height="238" alt="image" src="https://github.com/user-attachments/assets/a90f3085-41ad-4341-a815-9c37ab06fa5b" />
+      <img width="463" height="238" alt="image" src="https://github.com/user-attachments/assets/a90f3085-41ad-4341-a815-9c37ab06fa5b" />
 
    - Contoh Data Binding & Perulangan
 
-   <img width="486" height="250" alt="image" src="https://github.com/user-attachments/assets/ad62f79d-c479-4c67-a348-979652a15696" />
+      <img width="486" height="250" alt="image" src="https://github.com/user-attachments/assets/ad62f79d-c479-4c67-a348-979652a15696" />
 
 
    
