@@ -115,19 +115,19 @@ WEB_PORTOFOLIO
    
    <img width="518" height="618" alt="Screenshot 2026-02-28 051037" src="https://github.com/user-attachments/assets/8e9f4dbf-a77f-4107-8332-973f73037d50" />
 
-### 6. Experience Section
+### 5. Experience Section
 
    Bagian ini menampilkan pengalaman organisasi atau kegiatan. Filter menggunakan @click untuk mengubah kategori. Data yang ditampilkan dikontrol oleh computed property filteredExperience() yang menyaring data berdasarkan kategori.
 
    <img width="636" height="772" alt="image" src="https://github.com/user-attachments/assets/0fbdcd94-9797-4ab6-a684-9977b83ae7ca" />
 
-### 7. Certificates Section
+### 6. Certificates Section
 
    Section ini menampilkan daftar sertifikat. Struktur mirip dengan Experience, tetapi menggunakan data certificates. Filtering dilakukan melalui filteredCertificates().
 
    <img width="627" height="762" alt="image" src="https://github.com/user-attachments/assets/3384b5b8-52f4-4636-8212-bf66cc040cfa" />
 
-### 8. Contact Section
+### 7. Contact Section
 
    Bagian ini berisi informasi kontak.
    - mailto: digunakan untuk membuka email secara langsung.
@@ -135,37 +135,37 @@ WEB_PORTOFOLIO
 
    <img width="834" height="481" alt="image" src="https://github.com/user-attachments/assets/c67e8b58-9e16-4910-bf3d-c0d65ed6a243" />
 
-### 9. Vue JS (Data dan Logika)
+### 8. Vue JS (Data dan Logika)
 
    Bagian data() menyimpan seluruh informasi yang digunakan dalam website, seperti nama, pengalaman, sertifikat, dan skill. Vue membuat data ini bisa ditampilkan secara dinamis di HTML.
 
    <img width="213" height="191" alt="image" src="https://github.com/user-attachments/assets/dc06bae7-8baf-4ec6-a469-fb799100e736" />
 
-### 10. Computed (Filter Logic)
+### 9. Computed (Filter Logic)
 
    Computed digunakan untuk memproses data sebelum ditampilkan. Fungsi ini menyaring data berdasarkan kategori yang dipilih.
 
    <img width="765" height="258" alt="image" src="https://github.com/user-attachments/assets/b5a3d25a-ac65-4665-84d7-fa0cc26662af" />
 
-### 11. Animasi Scroll
+### 10. Animasi Scroll
 
    Script ini berfungsi untuk memberikan efek animasi saat halaman di-scroll. Ketika elemen masuk ke area layar, class show ditambahkan sehingga animasi muncul.
 
   <img width="644" height="386" alt="image" src="https://github.com/user-attachments/assets/4646b38b-6180-4c8b-9963-a5ed30ff340e" />
 
-### 12. Footer
+### 11. Footer
 
    Pada bagian pertama terdapat elemen _footer_ yang berfungsi sebagai penutup halaman website. Footer menggunakan class Bootstrap seperti bg-dark, text-center, dan py-3 untuk memberikan latar belakang gelap, warna teks putih, posisi teks di tengah, serta padding vertikal. Di dalamnya terdapat tag _p_ yang menampilkan copyright dan nama pemilik website.
    
    <img width="665" height="155" alt="image" src="https://github.com/user-attachments/assets/1e02b424-7f7f-4c51-9ec0-b2c69796005e" />
 
-### 13. Bootstrap JS
+### 12. Bootstrap JS
 
    Terdapat pemanggilan Bootstrap JS melalui CDN. File ini berfungsi untuk mengaktifkan komponen interaktif Bootstrap seperti navbar toggle, dropdown, dan modal. Setelah itu terdapat pemanggilan Vue JS melalui CDN yang digunakan untuk mengelola data secara dinamis menggunakan reactive system dan data binding.
 
    <img width="994" height="73" alt="image" src="https://github.com/user-attachments/assets/e628ccaf-445c-4696-b41b-4a06a3f17dbc" />
 
-### 14. Vue JS
+### 13. Vue JS
 
    Berfungsi untuk menghubungkan website dengan library Vue.js versi 3 melalui CDN. Pada bagian <script> dengan const { createApp } = Vue, kode ini digunakan untuk menginisialisasi aplikasi Vue agar data seperti description, experiences, dan skills dapat ditampilkan secara dinamis pada halaman.
     
@@ -254,7 +254,7 @@ WEB_PORTOFOLIO
 
    <img width="423" height="373" alt="image" src="https://github.com/user-attachments/assets/5b3c776b-205b-4f8b-8a2b-550fd88a9e8a" />
 
-### 13. About Image Style
+### 14. About Image Style
 
    Mengatur tampilan foto pada section About agar memiliki frame gradasi dan efek zoom. Fungsinya untuk memperindah tampilan bagian profil.
 
